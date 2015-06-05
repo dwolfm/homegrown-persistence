@@ -11,8 +11,7 @@ app.use(function(req, res){
 	res.status(404).send('sury bub 404');
 });
 
-
-app.listen(3070, function(){
+app.listen(3000, function(){
 	console.log('starting app');
 });
 

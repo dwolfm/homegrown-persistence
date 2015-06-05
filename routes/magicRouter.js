@@ -31,6 +31,7 @@ module.exports = function(router){
 
 		fsctlr.newMagic(req.body, function(err, obj){
 			if (err){
+				console.log('fuckkkkk its broken');
 				return res.status(500).json({err: err.message}).send();
 			}	
 			res.status(200).json(obj);
